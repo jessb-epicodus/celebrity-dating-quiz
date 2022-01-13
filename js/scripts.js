@@ -4,6 +4,7 @@ $(document).ready(function() {
     const gender = $("select#gender").val();
     $("#austin").hide();
     $("#minion").hide();
+    $(".invalid-feedback").hide();
 
     if ((gender === "female" || "non-binary" || "male") && age >= 30) {
     $("#austin").show();
