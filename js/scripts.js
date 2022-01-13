@@ -9,6 +9,8 @@ $(document).ready(function() {
     $("#austin").show();
     } else if ((gender === "female" || "non-binary" || "male") && age < 30) {
     $("#minion").show();
+    } else {
+      alert("Please enter your age and gender.");
     }
     event.preventDefault();
   });
