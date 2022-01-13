@@ -4,3 +4,7 @@
 #minion {
   display: none;
 }
+.invalid-feedback
+{
+  display: none;
+}
